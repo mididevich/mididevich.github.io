@@ -23,11 +23,6 @@ span {
     color: #0078D7;
 }
 
-.link {
-    color: red;
-    font-weight: bold;
-}
-
 img{
 	width: 100px;
 	border-radius: 50px;
@@ -42,12 +37,22 @@ table {
 
 a {
 	text-decoration: none;
-	color: #red;
+	color: black;
 	font-weight: bold;
 	transition: 0.3s;
 }
 
 a:hover {
-	color: #green;
+	color: #422676;
 	transition: 0.3s;
+}
+
+.link {
+    color: red;
+    font-weight: bold;
+}
+
+.cont {
+    width: 200px;
+    text-align: right;
 }
